@@ -19,10 +19,6 @@ export const metadata: Metadata = {
     "student information system",
     "Orbitiy",
   ],
-  icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
-  },
   openGraph: {
     title: "Orbitiy — ERP for Schools & Colleges",
     description:
