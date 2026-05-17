@@ -2,6 +2,7 @@
   "name": "orbitiy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ketandevra.github.io/orbitiy",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
