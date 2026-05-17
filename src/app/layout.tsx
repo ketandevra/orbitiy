@@ -8,7 +8,15 @@ const inter = Inter({
   display: "swap",
 });
 
+const siteUrl =
+  process.env.GITHUB_PAGES === "true"
+    ? "https://ketandevra.github.io/orbitiy"
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Orbitiy — ERP for Schools & Colleges",
   description:
     "Orbitiy is a unified ERP platform for school and college management — admissions, academics, fees, attendance, exams, and more in one connected system.",
